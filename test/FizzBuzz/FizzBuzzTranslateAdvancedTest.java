@@ -55,7 +55,7 @@ class FizzBuzzTranslateAdvancedTest {
     @Test
     @DisplayName("Test Advanced FizzBuzz 30")
     void testFizzBuzz30() {
-        int number = 15;
+        int number = 30;
         String excepted = "FizzBuzz";
         String result = FizzBuzzTranslateAdvanced.FizzBuzz(number);
         assertEquals(excepted, result);
